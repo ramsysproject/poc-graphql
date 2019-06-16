@@ -6,6 +6,13 @@ type Customer {
   id: ID
   name: String
   lastName: String
+  phone: Long
+  shippingAddress: String
+  street: String
+  neighbourhood: String
+  streetNumber: Int
+  email: String
+  status: Int
   province: Province
 }
 
