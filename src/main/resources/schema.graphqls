@@ -1,0 +1,15 @@
+type Query {
+  customerById(id: Long): Customer
+}
+
+type Customer {
+  id: ID
+  name: String
+  lastName: String
+  province: Province
+}
+
+type Province {
+  id: ID
+  name: String
+}
